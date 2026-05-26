@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <main id="home">
       <Header />
-      {/* <Navbar /> */}
       <Hero />
       <Services />
       <ProductShowcase />

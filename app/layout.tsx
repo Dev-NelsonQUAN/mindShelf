@@ -47,8 +47,8 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: '/mindshelfLogo.png',
+    apple: '/mindshelfLogo.png',
   },
 
   robots: {
