@@ -5,7 +5,7 @@ import './globals.css'
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'] })
 
-const DEPLOYED_URL = 'https://mindshelf.com' 
+const DEPLOYED_URL = 'https://mindshelf-one.vercel.app' 
 
 export const metadata: Metadata = {
   metadataBase: new URL(DEPLOYED_URL),
@@ -14,9 +14,12 @@ export const metadata: Metadata = {
     template: '%s | Mindshelf' 
   },
   description: 'Discover curated books, personalized recommendations, and bulk book supply services for schools and churches. Nationwide delivery across Nigeria available.',
+  verification: {
+    google: 'google5102b8fe3b44f9b4',
+  },
   keywords: ['online bookstore nigeria', 'buy bibles lagos', 'bulk book supply for churches', 'school library book suppliers', 'christian literature nigeria', 'mindshelf bookshop'],
   authors: [{ name: 'Mindshelf Team' }],
-  creator: 'Mindshelf',
+  creator: 'Mindshelf Eng. - Quadri Adegbenga Nelson',
   
   alternates: {
     canonical: '/',
@@ -29,14 +32,14 @@ export const metadata: Metadata = {
     siteName: 'Mindshelf',
     locale: 'en_US',
     type: 'website',
-    images: [
-      {
-        url: '/og-image.png', 
-        width: 1200,
-        height: 630,
-        alt: 'Mindshelf - Premium Book & Bible Supply Store',
-      },
-    ],
+    // images: [
+    //   {
+    //     url: '/og-image.png', 
+    //     width: 1200,
+    //     height: 630,
+    //     alt: 'Mindshelf - Premium Book & Bible Supply Store',
+    //   },
+    // ],
   },
 
   twitter: {
