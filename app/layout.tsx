@@ -5,7 +5,7 @@ import './globals.css'
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'] })
 
-const DEPLOYED_URL = 'https://mindshelf-one.vercel.app' 
+const DEPLOYED_URL = 'https://mind-shelf-one.vercel.app' 
 
 export const metadata: Metadata = {
   metadataBase: new URL(DEPLOYED_URL),
