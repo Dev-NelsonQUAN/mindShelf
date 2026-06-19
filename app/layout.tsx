@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     siteName: 'Mindshelf',
     locale: 'en_US',
     type: 'website',
-    // images: [
-    //   {
-    //     url: '/og-image.png', 
-    //     width: 1200,
-    //     height: 630,
-    //     alt: 'Mindshelf - Premium Book & Bible Supply Store',
-    //   },
-    // ],
+    images: [
+      {
+        url: '/og-image.png', 
+        width: 1200,
+        height: 630,
+        alt: 'Mindshelf - Premium Book & Bible Supply Store',
+      },
+    ],
   },
 
   twitter: {
